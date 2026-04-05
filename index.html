@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Actinium — Management Consultation</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Syne:wght@400;500;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="actinium-website.css">
+</head>
+<body>
+<div id="progress-bar"></div>
+<div id="cursor-ring"></div>
+<div id="cursor-dot"></div>
+
+<nav id="navbar">
+  <a href="#" class="logo" aria-label="Actinium home">
+    <span class="logo-badge">
+      <img src="assets/actinium-logo-mark.png" alt="Actinium logo" class="logo-mark">
+    </span>
+    <div class="logo-text">
+      <span>actinium</span>
+      <span>management consultation</span>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#team">Team</a></li>
+    <li><a href="#contact" class="nav-cta">Contact</a></li>
+  </ul>
+</nav>
+
+<section id="hero">
+  <canvas id="hero-canvas"></canvas>
+  <div class="hero-noise"></div>
+  <div class="hero-content">
+    <!-- <div class="hero-brand">
+      <img src="assets/actinium-logo-full.png" alt="Actinium Management Consultation" class="hero-brand-image">
+    </div> -->
+    <!-- <div class="hero-eyebrow"><div class="eyebrow-line"></div>Jordan &amp; Saudi Arabia</div> -->
+    <h1 class="hero-title" id="heroTitle"></h1>
+    <p class="hero-desc">Management consulting, audit, and compliance services focused on practical implementation, measurable outcomes, and sustainable performance.</p>
+    <div class="hero-buttons">
+      <a href="#services" class="btn-mag btn-primary-m">Explore Services</a>
+      <a href="#contact" class="btn-mag btn-outline-m">Get in Touch</a>
+    </div>
+  </div>
+  <!-- <div class="hero-scroll"><div class="scroll-pill"></div><span class="scroll-text">Scroll to explore</span></div> -->
+  <div class="hero-stats">
+    <div class="stat-block"><span class="stat-n" id="sc1">0</span><span class="stat-n">+</span><div class="stat-l">Years Experience</div></div>
+    <div class="stat-block"><span class="stat-n" id="sc2">0</span><div class="stat-l">Service Areas</div></div>
+    <div class="stat-block"><span class="stat-n" id="sc3">0</span><span class="stat-n">+</span><div class="stat-l">ISO Standards</div></div>
+  </div>
+</section>
+
+<div class="marquee-strip"><div class="marquee-inner" id="marquee"></div></div>
+
+<section id="overview">
+  <div class="overview-wrap">
+    <div>
+      <div class="s-tag reveal">About Actinium</div>
+      <h2 class="s-title reveal d1">Bridging strategy<br>and <em>execution</em></h2>
+      <p class="s-desc reveal d2">A professional advisory firm providing integrated management consulting, audit, and compliance services across a wide range of industries — supporting organizations in Jordan and Saudi Arabia with structured solutions that strengthen governance and enable sustainable results.</p>
+      <div class="vm-grid">
+        <div class="vm-card reveal d2"><h4>Vision</h4><p>To be a trusted management consulting firm recognized for strengthening resilience, improving performance, and supporting sustainable development through strong governance.</p></div>
+        <div class="vm-card reveal d3"><h4>Mission</h4><p>To deliver high-quality management consulting and assurance services that enable long-term business value through structured advisory approaches and globally accepted professional frameworks.</p></div>
+      </div>
+    </div>
+    <div>
+      <div class="s-tag reveal">Client Outcomes</div>
+      <h3 class="reveal d1 section-mini-title">What you gain working with us</h3>
+      <div class="outcomes reveal d2">
+        <div class="outcome"><div class="outcome-ico">✓</div>Faster certification readiness and fewer repeat audit findings</div>
+        <div class="outcome"><div class="outcome-ico">✓</div>Practical policies and controls that teams can actually use</div>
+        <div class="outcome"><div class="outcome-ico">✓</div>Clear governance aligned to day-to-day operations</div>
+        <div class="outcome"><div class="outcome-ico">✓</div>Training so the organization can sustain improvements</div>
+        <div class="outcome"><div class="outcome-ico">✓</div>ESG reporting and sustainability data advisory</div>
+      </div>
+      <div class="values-row reveal d3">
+        <div class="val"><h5>Excellence</h5><p>Quality delivery aligned to standards and best practices</p></div>
+        <div class="val"><h5>Integrity</h5><p>Objectivity and professionalism in all engagements</p></div>
+        <div class="val"><h5>Governance</h5><p>Accountability, transparency, sound decision-making</p></div>
+        <div class="val"><h5>Practical Impact</h5><p>Actionable work products and measurable outcomes</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="services-top">
+    <div>
+      <div class="s-tag reveal">What We Do</div>
+      <h2 class="s-title reveal d1">Five integrated<br><em>service areas</em></h2>
+    </div>
+    <!-- <p class="s-desc reveal services-note">Delivered in Arabic &amp; English — remote and on-site across Jordan and Saudi Arabia.</p> -->
+  </div>
+  <div class="services-grid">
+    <div class="svc reveal"><div class="svc-num"></div><span class="svc-icon">📋</span><h3>ISO Management Systems Consulting</h3><p>Certification readiness and practical implementation for ISO 9001, ISO/IEC 27001, ISO 22301, and more. Gap assessment, documentation, internal audit, readiness review.</p><div class="svc-chips"><span class="chip">ISO 9001</span><span class="chip">ISO 27001</span><span class="chip">ISO 22301</span><span class="chip">ISO 45001</span></div></div>
+    <div class="svc reveal d1"><div class="svc-num"></div><span class="svc-icon">⚖️</span><h3>Governance, Risk &amp; Compliance</h3><p>Risk frameworks, compliance programs, governance operating models. Ethics programs including anti-bribery and ESG reporting where applicable.</p><div class="svc-chips"><span class="chip">ISO 31000</span><span class="chip">ISO 37301</span><span class="chip">ESG</span></div></div>
+    <div class="svc reveal d2"><div class="svc-num"></div><span class="svc-icon">🔍</span><h3>Internal Audit &amp; Assurance</h3><p>Audit program setup, execution support, corrective action closure. Management review enablement and continual improvement cadence.</p><div class="svc-chips"><span class="chip">Audit Programs</span><span class="chip">Readiness Reviews</span></div></div>
+    <div class="svc svc-wide reveal d3"><div class="svc-num"></div><span class="svc-icon">🔐</span><h3>Information Security &amp; IT Governance</h3><p>We support organizations in strengthening information security governance, IT service discipline, and technology controls aligned with recognized standards and applicable national baselines. Policies and control baselines aligned to ISO/IEC 27001, 27701, 38500, 42001 and more.</p><div class="svc-chips"><span class="chip">ISO/IEC 27001</span><span class="chip">ISO/IEC 27701</span><span class="chip">ISO/IEC 38500</span><span class="chip">ISO/IEC 42001</span></div></div>
+    <div class="svc reveal d4"><div class="svc-num"></div><span class="svc-icon">🎓</span><h3>Training &amp; Capability Building</h3><p>Internal auditor training, executive awareness sessions, process ownership workshops, and train-the-trainer programs to sustain knowledge internally.</p><div class="svc-chips"><span class="chip">Workshops</span><span class="chip">Coaching</span></div></div>
+  </div>
+</section>
+
+<div class="stats-band">
+  <div class="stats-row">
+    <div class="s-stat reveal"><span class="count-num" data-target="23" data-suffix="+">0</span><div class="count-lbl">Years Combined Experience</div></div>
+    <div class="s-stat reveal d1"><span class="count-num" data-target="5" data-suffix="">0</span><div class="count-lbl">Core Service Lines</div></div>
+    <div class="s-stat reveal d2"><span class="count-num" data-target="15" data-suffix="+">0</span><div class="count-lbl">ISO Standards Supported</div></div>
+    <div class="s-stat reveal d3"><span class="count-num" data-target="2" data-suffix="">0</span><div class="count-lbl">Markets: Jordan &amp; KSA</div></div>
+  </div>
+</div>
+
+<section id="process">
+  <div class="process-inner">
+    <div>
+      <div class="s-tag reveal">How We Deliver</div>
+      <h2 class="s-title reveal d1">Our delivery<br><em>methodology</em></h2>
+      <p class="s-desc reveal d2">A structured five-phase approach from baseline assessment to sustained continual improvement.</p>
+      <div class="timeline reveal d3">
+        <div class="tl-item"><div class="tl-dot">A</div><div class="tl-body"><h4>Assess</h4><p>Baseline maturity, gaps, and priorities — understanding where you are before designing where you're going.</p></div></div>
+        <div class="tl-item"><div class="tl-dot">D</div><div class="tl-body"><h4>Design</h4><p>Operating model, processes, controls, and documentation tailored to your context and readiness level.</p></div></div>
+        <div class="tl-item"><div class="tl-dot">I</div><div class="tl-body"><h4>Implement</h4><p>Hands-on rollout support and training to embed the system into actual operations.</p></div></div>
+        <div class="tl-item"><div class="tl-dot">A</div><div class="tl-body"><h4>Assure</h4><p>Internal audits, readiness reviews, and corrective action support to verify effectiveness.</p></div></div>
+        <div class="tl-item"><div class="tl-dot">S</div><div class="tl-body"><h4>Sustain</h4><p>ESG KPIs, management review cadence, and a continual improvement plan for lasting results.</p></div></div>
+      </div>
+    </div>
+    <div>
+      <div class="s-tag reveal">Engagement Models</div>
+      <h2 class="s-title reveal d1">Four ways<br>to <em>work with us</em></h2>
+      <div class="engage-types reveal d2">
+        <div class="et"><div class="et-letter">A</div><div><h4>Advisory</h4><p>Targeted support for governance, risk, and compliance decisions.</p></div></div>
+        <div class="et"><div class="et-letter">I</div><div><h4>Implementation</h4><p>Hands-on build and rollout of systems, processes, and controls.</p></div></div>
+        <div class="et"><div class="et-letter">A</div><div><h4>Assurance</h4><p>Internal audits, readiness assessments, and control effectiveness reviews.</p></div></div>
+        <div class="et"><div class="et-letter">T</div><div><h4>Training</h4><p>Workshops and capability-building so your team can sustain improvements on their own.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="standards">
+  <div class="standards-wrap">
+    <div>
+      <div class="s-tag reveal">Our Coverage</div>
+      <h2 class="s-title reveal d1">ISO frameworks<br>we <em>work with</em></h2>
+      <p class="s-desc reveal d2">We support a comprehensive range of internationally recognized standards, giving you a single partner across multiple compliance needs.</p>
+      <div class="reveal d3 standards-note">
+        <p>Audit program setup: typically <strong>2–4 weeks</strong>. Readiness reviews: <strong>1–3 weeks</strong> for single-site organizations.</p>
+      </div>
+    </div>
+    <div class="iso-list reveal d2">
+      <div class="iso-card"><div class="iso-cat">Quality</div><div class="iso-codes">ISO 9001 · ISO 10001</div></div>
+      <div class="iso-card"><div class="iso-cat">Information Security &amp; Privacy</div><div class="iso-codes">ISO/IEC 27001 · ISO/IEC 27701</div></div>
+      <div class="iso-card"><div class="iso-cat">Business Continuity</div><div class="iso-codes">ISO 22301</div></div>
+      <div class="iso-card"><div class="iso-cat">Health &amp; Safety</div><div class="iso-codes">ISO 45001</div></div>
+      <div class="iso-card"><div class="iso-cat">Environmental &amp; Energy</div><div class="iso-codes">ISO 14001 · ISO 50001</div></div>
+      <div class="iso-card"><div class="iso-cat">Food Safety</div><div class="iso-codes">ISO 22000</div></div>
+      <div class="iso-card"><div class="iso-cat">Asset Management</div><div class="iso-codes">ISO 55000</div></div>
+      <div class="iso-card"><div class="iso-cat">Risk Management</div><div class="iso-codes">ISO 31000</div></div>
+      <div class="iso-card"><div class="iso-cat">Compliance &amp; Ethics</div><div class="iso-codes">ISO 37301 · ISO 37001 · ISO 37002</div></div>
+      <div class="iso-card"><div class="iso-cat">IT Governance &amp; AI</div><div class="iso-codes">ISO/IEC 38500 · ISO/IEC 42001</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="team">
+  <div class="s-tag reveal">Our People</div>
+  <h2 class="s-title reveal d1">A senior team of<br><em>proven experts</em></h2>
+  <p class="s-desc reveal d2">Combining governance, compliance, operations, and technology leadership across the MENA region.</p>
+  <div class="team-grid">
+    <div class="team-card reveal" data-tilt><div class="team-av">AI</div><h3>Abdulrahman Irshaid</h3><div class="team-role">Chief Executive Officer</div><p>Provides executive leadership and strategic oversight, ensuring alignment with international standards, regulatory requirements, and best practices. Sets corporate vision and safeguards governance integrity across Jordan and Saudi Arabia.</p></div>
+    <div class="team-card reveal d1" data-tilt><div class="team-av">HI</div><h3>Hatem Irshaid</h3><div class="team-role">Chief Operating Officer</div><p>Over 21 years of experience in operational leadership and delivery execution. Worked with Fortune 100 organizations including Caterpillar, Dole, and Johnson &amp; Johnson.</p></div>
+    <div class="team-card reveal d2" data-tilt><div class="team-av">RI</div><h3>Raed Irshaid</h3><div class="team-role">Chief Technology Officer</div><p>Over 21 years of experience in technology leadership, IT governance, and enterprise implementation. Worked with Fortune 100 organizations including Caterpillar and Polaris.</p></div>
+    <div class="team-card reveal d3" data-tilt><div class="team-av">TK</div><h3>Tamador Khader</h3><div class="team-role">Technical Director, Management Systems</div><p>Over 23 years of executive-level experience in cybersecurity, information security, IT and AI governance, risk management, and compliance advisory across the MENA region.</p><div class="badges"><span class="badge">CISA</span><span class="badge">CISM</span><span class="badge">CDPSE</span></div></div>
+    <div class="team-card reveal d4" data-tilt><div class="team-av">SA</div><h3>Sattam Alenazi</h3><div class="team-role">Business Development Manager</div><p>Drives growth strategy by identifying opportunities, forming strategic partnerships, and strengthening client relationships. Expanding Actinium's presence across Jordan and Saudi Arabia.</p></div>
+    <div class="team-card reveal d5" data-tilt><div class="team-av">OA</div><h3>Eng. Omar Alqasem</h3><div class="team-role">Assistant Consultant, TQM &amp; Org. Development</div><p>ISO management systems implementer and internal auditor specializing in ISO 9001, ISO 45001, ISO 22000, and Halal. B.Sc. Electrical Power Engineering.</p><div class="badges"><span class="badge">OSHA</span><span class="badge">NEBOSH</span></div></div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="contact-wrap">
+    <div>
+      <div class="s-tag reveal">Start a Conversation</div>
+      <h2 class="s-title reveal d1">Let's build your<br><em>governance</em> foundation</h2>
+      <p class="s-desc reveal d2">Ready to strengthen your organization's performance? Reach out and we'll get back to you within one business day.</p>
+      <div class="contact-info reveal d3">
+        <div class="ci"><div class="ci-ico">📍</div><div class="ci-text"><h5>Address</h5><p>Al Swaifyeh, Al-Wakalaat Street, Ghadaf Commercial Complex, 2nd Floor, Amman, Jordan</p></div></div>
+        <div class="ci"><div class="ci-ico">📞</div><div class="ci-text"><h5>Phone</h5><a href="tel:+96264016887">+962 6 401 6887</a> &nbsp; <a href="tel:+962791509001">+962 79 150 9001</a></div></div>
+        <div class="ci"><div class="ci-ico">✉️</div><div class="ci-text"><h5>Email</h5><a href="mailto:info@actiniumconsultations.com">info@actiniumconsultations.com</a></div></div>
+        <div class="ci"><div class="ci-ico">🌐</div><div class="ci-text"><h5>Website</h5><a href="https://www.actiniumconsultations.com" target="_blank">www.actiniumconsultations.com</a></div></div>
+      </div>
+    </div>
+    <div class="contact-form reveal d2">
+      <h3 class="contact-form-title">Send us a message</h3>
+      <div class="form-row">
+        <div class="fg"><label>First Name</label><input type="text" placeholder="Ahmad"></div>
+        <div class="fg"><label>Last Name</label><input type="text" placeholder="Al-Rashid"></div>
+      </div>
+      <div class="fg"><label>Email</label><input type="email" placeholder="you@company.com"></div>
+      <div class="fg"><label>Organization</label><input type="text" placeholder="Your company name"></div>
+      <div class="fg"><label>Service of Interest</label><select><option value="">Select a service area</option><option>ISO Management Systems Consulting</option><option>Governance, Risk &amp; Compliance</option><option>Internal Audit &amp; Assurance</option><option>Information Security &amp; IT Governance</option><option>Training &amp; Capability Building</option></select></div>
+      <div class="fg"><label>Message</label><textarea placeholder="Tell us about your organization's needs..."></textarea></div>
+      <button class="submit-btn" onclick="submitForm(this)">Send Message →</button>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="f-logo">
+    <span class="f-logo-badge">
+      <img src="assets/actinium-logo-full.png" alt="Actinium Management Consultation" class="f-logo-image">
+    </span>
+  </div>
+  <div class="f-links">
+    <a href="#overview">Overview</a><a href="#services">Services</a>
+    <a href="#process">Process</a><a href="#team">Team</a><a href="#contact">Contact</a>
+  </div>
+  <div class="f-copy">© 2025 Actinium for Management Consultation LLC</div>
+</footer>
+
+<script>
+const ring=document.getElementById('cursor-ring'),dot=document.getElementById('cursor-dot');
+let mx=0,my=0,rx=0,ry=0;
+document.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY;dot.style.left=mx+'px';dot.style.top=my+'px';});
+(function lc(){rx+=(mx-rx)*0.12;ry+=(my-ry)*0.12;ring.style.left=rx+'px';ring.style.top=ry+'px';requestAnimationFrame(lc);})();
+document.querySelectorAll('a,button,.svc,.team-card,.vm-card,.outcome,.et,.iso-card,.val').forEach(el=>{
+  el.addEventListener('mouseenter',()=>document.body.classList.add('cursor-hover'));
+  el.addEventListener('mouseleave',()=>document.body.classList.remove('cursor-hover'));
+});
+
+window.addEventListener('scroll',()=>{
+  document.getElementById('progress-bar').style.width=(window.scrollY/(document.body.scrollHeight-window.innerHeight)*100)+'%';
+  document.getElementById('navbar').classList.toggle('scrolled',window.scrollY>60);
+});
+
+const canvas=document.getElementById('hero-canvas'),ctx=canvas.getContext('2d');
+let W,H,pts=[];
+function sz(){W=canvas.width=canvas.offsetWidth;H=canvas.height=canvas.offsetHeight;}
+sz(); window.addEventListener('resize',()=>{sz();init();});
+function P(){this.x=Math.random()*W;this.y=Math.random()*H;this.vx=(Math.random()-.5)*.35;this.vy=(Math.random()-.5)*.35;this.r=Math.random()*1.4+.3;this.a=Math.random()*.5+.15;}
+function init(){pts=[];const n=Math.floor(W*H/13000);for(let i=0;i<n;i++)pts.push(new P());}
+init();
+let pmx=-9999,pmy=-9999;
+document.getElementById('hero').addEventListener('mousemove',e=>{const r=canvas.getBoundingClientRect();pmx=e.clientX-r.left;pmy=e.clientY-r.top;});
+(function draw(){
+  ctx.clearRect(0,0,W,H);
+  const g=ctx.createLinearGradient(0,0,W,H);
+  g.addColorStop(0,'#0d1528');g.addColorStop(.5,'#18243e');g.addColorStop(1,'#0d1528');
+  ctx.fillStyle=g;ctx.fillRect(0,0,W,H);
+  pts.forEach(p=>{
+    p.x+=p.vx;p.y+=p.vy;
+    if(p.x<0||p.x>W)p.vx*=-1;if(p.y<0||p.y>H)p.vy*=-1;
+    const dx=p.x-pmx,dy=p.y-pmy,d=Math.sqrt(dx*dx+dy*dy);
+    if(d<130){const f=(130-d)/130*.014;p.vx+=dx/d*f;p.vy+=dy/d*f;}
+    ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,Math.PI*2);
+    ctx.fillStyle=`rgba(184,151,90,${p.a})`;ctx.fill();
+  });
+  for(let i=0;i<pts.length;i++)for(let j=i+1;j<pts.length;j++){
+    const dx=pts[i].x-pts[j].x,dy=pts[i].y-pts[j].y,d=Math.sqrt(dx*dx+dy*dy);
+    if(d<115){ctx.beginPath();ctx.strokeStyle=`rgba(184,151,90,${(1-d/115)*.1})`;ctx.lineWidth=.5;ctx.moveTo(pts[i].x,pts[i].y);ctx.lineTo(pts[j].x,pts[j].y);ctx.stroke();}
+  }
+  requestAnimationFrame(draw);
+})();
+
+/* HERO TITLE */
+const words=[{t:'Governance',em:false},{t:'built',em:true},{t:'for',em:false},{t:'real-world',em:false},{t:'performance.',em:false}];
+const titleEl=document.getElementById('heroTitle');
+[[0,1],[2,3],[4]].forEach((idxs,li)=>{
+  const line=document.createElement('div');line.style.display='block';
+  idxs.forEach((wi,ii)=>{
+    const w=words[wi],wrap=document.createElement('span');
+    wrap.className='word-wrap';
+    const s=document.createElement('span');
+    s.className='word'+(w.em?' em':'');s.textContent=w.t;
+    s.style.animationDelay=(0.55+li*.22+ii*.11)+'s';
+    wrap.appendChild(s);
+    if(ii<idxs.length-1){const sp=document.createElement('span');sp.className='word-sp';wrap.appendChild(sp);}
+    line.appendChild(wrap);
+  });
+  titleEl.appendChild(line);
+});
+
+const items=['ISO 9001','ISO/IEC 27001','Governance','Risk Management','ISO 22301','Internal Audit','ISO 45001','Compliance','ESG Reporting','ISO 14001','Training','ISO 37001'];
+const marq=document.getElementById('marquee');
+marq.innerHTML=[...items,...items,...items].map(t=>`<span class="marquee-item">${t}<span class="marquee-dot"></span></span>`).join('');
+
+const ro=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('on');}),{threshold:.1,rootMargin:'0px 0px -40px 0px'});
+document.querySelectorAll('.reveal').forEach(el=>ro.observe(el));
+
+function animC(el){
+  const t=+el.dataset.target,sf=el.dataset.suffix||'';
+  let c=0;const inc=t/55;
+  const timer=setInterval(()=>{c=Math.min(c+inc,t);el.textContent=Math.floor(c)+sf;if(c>=t)clearInterval(timer);},28);
+}
+const co=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){animC(e.target);co.unobserve(e.target);}}),{threshold:.5});
+document.querySelectorAll('[data-target]').forEach(el=>co.observe(el));
+
+setTimeout(()=>{
+  [[document.getElementById('sc1'),23],[document.getElementById('sc2'),5],[document.getElementById('sc3'),15]].forEach(([el,t])=>{
+    let c=0;const timer=setInterval(()=>{c=Math.min(c+1,t);el.textContent=c;if(c>=t)clearInterval(timer);},70);
+  });
+},2100);
+
+document.querySelectorAll('[data-tilt]').forEach(card=>{
+  card.addEventListener('mousemove',e=>{
+    const r=card.getBoundingClientRect();
+    const rx2=((e.clientY-r.top)/r.height-.5)*10;
+    const ry2=((e.clientX-r.left)/r.width-.5)*-10;
+    card.style.transform=`perspective(700px) rotateX(${rx2}deg) rotateY(${ry2}deg) translateY(-6px)`;
+    card.style.transition='transform 0.1s';
+  });
+  card.addEventListener('mouseleave',()=>{
+    card.style.transition='transform 0.6s cubic-bezier(0.23,1,0.32,1)';
+    card.style.transform='';
+  });
+});
+
+document.querySelectorAll('.btn-mag').forEach(btn=>{
+  btn.addEventListener('mousemove',e=>{
+    const r=btn.getBoundingClientRect();
+    const x=(e.clientX-r.left-r.width/2)*.2;
+    const y=(e.clientY-r.top-r.height/2)*.2;
+    btn.style.transform=`translate(${x}px,${y}px)`;
+    btn.style.transition='transform 0.1s';
+  });
+  btn.addEventListener('mouseleave',()=>{
+    btn.style.transition='transform 0.5s cubic-bezier(0.23,1,0.32,1)';
+    btn.style.transform='';
+  });
+});
+
+function submitForm(btn){
+  const orig=btn.textContent;btn.disabled=true;btn.textContent='Sending…';btn.style.opacity='.7';
+  setTimeout(()=>{btn.textContent='Message Sent ✓';btn.style.opacity='1';btn.style.background='#2C3A5C';btn.style.color='#B8975A';},1200);
+  setTimeout(()=>{btn.textContent=orig;btn.style.background='';btn.style.color='';btn.disabled=false;},4500);
+}
+</script>
+</body>
+</html>
